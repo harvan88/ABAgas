@@ -13,7 +13,7 @@ body {
 }
 
 form {
-    background: #f5f5f5;
+    background: #e9e7e7;
     padding: 1px;
     width: 100%;
     max-width: calc(100% - 60px); 
@@ -28,12 +28,14 @@ form {
 
 input, 
 textarea{
-    border: 1px solid #f4f4f4;
+    border: 1px solid #cfcece;
     line-height: 2;
     padding: 5px;
     border-radius: 5px;
 }
+
 form button {
+    margin-top: 15px;
     width: 100%;
     padding: 15px;
     color: #f5f5f5;
