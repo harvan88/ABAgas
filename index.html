@@ -7,38 +7,45 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-       <div id="comments_field" style="display: none"></div>
-    <div class="row">
-        <div class="col-6 col-sm-7">
-
-        </div>
-        <div class="col-6 col-sm-5 text-right">
-            <button type="submit" class="button">Enviar</button>
-        </div>
-    </div>
-</form>
  
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdyGELDmERP2-lNnQ3BXbSM7ttOemPXQqSkoD8Q4FSaqH1rsQ/formResponse" method="POST">   
+        <div class="form-element">
+               <input type="text" name="entry.511978957" required placeholder="Nombre">
+        </div>
+        <div class="form-element">
+            <input type="email" name="emailAddress" required placeholder="Correo electrónico">
+        </div>
+         <div class="form-element">
+               <input type="text" name="entry.511978957" required placeholder="Teléfono">
+        </div>
+         <h6 class="form-element" style="display: none">Vehículo:</h6>
+        
+    <select name="Vehiculo" class="form-element" required="">
+        <option value="">-- Marca --</option>
+        <option value="Chery">Chery</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Citroen">Citroen</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Ford">Ford</option>
+        <option value="Honda">Honda</option>
+        <option value="Hyundai">Hyundai</option>
+        <option value="KIA">KIA</option>
+        <option value="Nissan">Nissan</option>
+        <option value="Peugeot">Peugeot</option>
+        <option value="Renault">Renault</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Volkswagen">Volkswagen</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Otra">Otra</option>
+    </select>
+    <div class="row">
+        <div class="col pr-5">
+            <input type="text" name="Modelo" class="form-control" placeholder="Modelo (ej: Suran)" required="">
+        </div>
+        <div class="col pl-5">
+            <input type="text" name="Anio" class="form-control" placeholder="Año (ej: 2019)">
+        </div>
     </div>
     
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdyGELDmERP2-lNnQ3BXbSM7ttOemPXQqSkoD8Q4FSaqH1rsQ/formResponse" method="POST">
-            <div class="form-element">
-                <input type="email" name="emailAddress" required placeholder="Correo electrónico">
-            </div>
-            <div class="form-element">
-               <input type="text" name="entry.511978957" required placeholder="Nombre">
-            </div>
-        
-            <div class="form-element checkbox">
-                <label for="PRIVACIDAD">
-                    <input type="checkbox" name="entry.404609114" required placeholder="PRIVACIDAD" value="He leído y acepto la política de privacidad">
-                    <span class="text">
-                        He leído y acepto la <a target="_blank" href="https://sites.google.com/view/harvan/pol%C3%ADtica-de-privacidad">POLÍTICA DE PRIVACIDAD</a>
-                    </span>
-                </label>
-             </div>
-
-
-            <button type="submit">¡Sí, quiero!</button>
-        </form>
 </body>
 </html>
