@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
- 
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdyGELDmERP2-lNnQ3BXbSM7ttOemPXQqSkoD8Q4FSaqH1rsQ/formResponse" method="POST">   
+     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdyGELDmERP2-lNnQ3BXbSM7ttOemPXQqSkoD8Q4FSaqH1rsQ/formResponse" method="POST">   
         <div class="form-element">
                <input type="text" name="entry.511978957" required placeholder="Nombre">
         </div>
@@ -20,7 +19,7 @@
         </div>
          <h6 class="form-element" style="display: none">Vehículo:</h6>
         
-    <select name="Vehiculo" class="form-element" required="">
+    <select class="form-element" name="Vehiculo" required="">
         <option value="">-- Marca --</option>
         <option value="Chery">Chery</option>
         <option value="Chevrolet">Chevrolet</option>
@@ -38,14 +37,12 @@
         <option value="Volvo">Volvo</option>
         <option value="Otra">Otra</option>
     </select>
-    <div class="row">
-        <div class="col pr-5">
-            <input type="text" name="Modelo" class="form-control" placeholder="Modelo (ej: Suran)" required="">
+     <div class="form-element">
+            <input type="text" name="Modelo"  placeholder="Modelo (ej: Suran)" required="">
         </div>
         <div class="col pl-5">
-            <input type="text" name="Anio" class="form-control" placeholder="Año (ej: 2019)">
+            <input type="text" name="Anio" placeholder="Año (ej: 2019)">
         </div>
-    </div>
     
 </body>
 </html>
