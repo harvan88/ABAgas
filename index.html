@@ -7,7 +7,63 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdyGELDmERP2-lNnQ3BXbSM7ttOemPXQqSkoD8Q4FSaqH1rsQ/formResponse" method="POST">
+    <div class="form">
+        <div class="text-center text-sm-right hidden-xs">
+            <h2>¡Informate YA!</h2>
+        </div>
+                <form action="contactengine.php" class="zlform" method="post" id="contact-form">
+    <div class="row">
+        <div class="col pr-5">
+            <input type="text" name="Name" placeholder="Nombre" class="form-control" required="">
+        </div>
+        <div class="col pl-5">
+            <input type="text" name="Apellidos" placeholder="Apellidos" class="form-control" required="">
+        </div>
+    </div>
+    <input type="email" name="Email" placeholder="E-mail" class="form-control" required="">
+    <input type="text" name="Telefono" placeholder="Teléfono" class="form-control" required="">
+    <h6 class="mt-4" style="display: none">Vehículo:</h6>
+    <select name="Vehiculo" class="form-control" required="">
+        <option value="">-- Marca --</option>
+        <option value="Chery">Chery</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Citroen">Citroen</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Ford">Ford</option>
+        <option value="Honda">Honda</option>
+        <option value="Hyundai">Hyundai</option>
+        <option value="KIA">KIA</option>
+        <option value="Nissan">Nissan</option>
+        <option value="Peugeot">Peugeot</option>
+        <option value="Renault">Renault</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Volkswagen">Volkswagen</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Otra">Otra</option>
+    </select>
+    <div class="row">
+        <div class="col pr-5">
+            <input type="text" name="Modelo" class="form-control" placeholder="Modelo (ej: Suran)" required="">
+        </div>
+        <div class="col pl-5">
+            <input type="text" name="Anio" class="form-control" placeholder="Año (ej: 2019)">
+        </div>
+    </div>
+    
+    <div id="comments_field" style="display: none"></div>
+    <div class="row">
+        <div class="col-6 col-sm-7">
+
+        </div>
+        <div class="col-6 col-sm-5 text-right">
+            <button type="submit" class="button">Enviar</button>
+        </div>
+    </div>
+</form>
+ 
+    </div>
+    
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdyGELDmERP2-lNnQ3BXbSM7ttOemPXQqSkoD8Q4FSaqH1rsQ/formResponse" method="POST">
             <div class="form-element">
                 <input type="email" name="emailAddress" required placeholder="Correo electrónico">
             </div>
