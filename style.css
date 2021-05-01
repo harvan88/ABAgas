@@ -6,10 +6,10 @@
 
 body {
     font-family: 'Quicksand';
-   
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: indigo;
 }
 
 form {
@@ -23,6 +23,14 @@ form {
 .form-element {
     display: flex;
     flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.select {
+    padding: 8px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
     margin-bottom: 5px;
 }
 
